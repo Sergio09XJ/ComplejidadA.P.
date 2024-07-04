@@ -22,4 +22,4 @@ def generar_graf_barra(labels, v_lineal, v_binario):  #Creamos la función grafi
 #Este if nos sirve para usar el programa sea que un script o un modulo. 
 if __name__ == "__main__": 
    
-   generar_graf_barra()
+   generar_graf_barra()#Llamamos a la función

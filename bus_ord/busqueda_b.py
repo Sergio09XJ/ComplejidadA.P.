@@ -1,4 +1,3 @@
-
 " O(log n) Complejidad Algoritmica Logaritmica"
 def busqueda_b(lista, comienzo, final, objetivo, cont = 0, cont_list = []): #Creamos la función busqueda_b 
     
