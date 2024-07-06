@@ -1,7 +1,8 @@
 import busqueda_b #Importamos el modulo busqueda_b
 import busqueda_l#Importamos el modulo busqueda_l
-import charts#Importamos el modulo charts
+#import charts#Importamos el modulo charts
 import random #Importamos el modulo random
+import gragh_bokeh #Importamos el moulos de graficas con bokeh 
 
 longitud = int(input("Dame el tamaño de tu lista: ")) #Pedimos el tamaño de la lista. 
 valor = int(input("Dime que valor quieres encontrar: ")) #El valor que queremos encontrar en la lista.
@@ -23,4 +24,6 @@ print(f"La cantidad de iteraciones en el algoritmo binario: {lista_b}\n")#Imprim
 print(f"El elemento en la busqueda lineal {'esta' if encontrado_l else 'no esta'} en la lista. ")#Imprimimos si encontramos el valor en la lista o no. 
 print(f"El elemento en la busqueda binaria {'esta' if encontrado_b else 'no esta'} en la lista. ")#Imprimimos si encontramos el valor en la lista o no. 
 
-charts.generar_graf_barra(len(lista), lista_l, lista_b)#Llamamos a la función generar_graf_barra y le damos los valores de la lista de iteración. 
+#charts.generar_graf_barra(len(lista), lista_l, lista_b)#Llamamos a la función generar_graf_barra y le damos los valores de la lista de iteración. 
+
+gragh_bokeh.grafica_bokeh(len(lista), lista_l, lista_b)
